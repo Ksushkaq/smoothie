@@ -1,7 +1,7 @@
-body{
+*{
 padding: 0;
 margin: 0;
-font-family: ;
+
 }
 
 
@@ -23,20 +23,28 @@ font-family: ;
    
 
 }
+.container{
+     font-size: 50px;
+}
+.top menu{
+  font-size: 150px;
+
+}
 .item{
      background: #0266187f ;
      font-size: 30px;
      margin: 250px 10px 10px 10px ;
      padding:auto;
-      border: 10px solid #3738377f;
-      border-radius:35px;
+     border: 10px solid #3738377f;
+     border-radius:35px;
+     radial-
     }
     .item p{
      font-size: 50px;
      color: #fcf40a;
-     font-family: ;
+     
     }
-}
+
 
 .footer{
     background: url('../image/border.jpg') no-repeat center top / cover;
