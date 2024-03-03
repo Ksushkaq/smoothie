@@ -19,25 +19,60 @@ font-weight: 800;
 }
 section:first-child{
 background: url('../image/border.jpg') no-repeat center top / cover;
-padding-bottom: 70px;
+padding-bottom: 115px;
 margin top:0;
 }
-.section1 h1{
-font-size: 70px;
+.main h2{
+font-size: 50px;
 display: inline-block;
 border: 7px solid  #6C6960;
 border-radius: 20px;
 float: right;
-padding: 10px;
-margin: 0px 0px 0px 800px;
+padding: 7px;
+margin: 0px 0px 0px 500px;
 color: #474A51;
 }
-.section1 p{
+.main h1{
+font-size: 70px;
+display: inline-block;
+float: right;
+padding: 7px;
+margin: 0px 0px 0px 500px;
+color: #474A51;
+}
+.main p{
 	font-size: 50px;
 	color: #6C6960 ;
 }
+section:nth-child(2){
+background: url('../image/abstract.jpg') no-repeat center top / cover;
+padding-bottom:115px;
+margin top:0px;
+}
+.smoothies{
+	display: inline-block;
+    justify-content: space-between;
+
+}
+.smoothies h3{
+	display: flex;
+	margin: auto;
+	padding: 0;
+	float
+}
+.desc-left, .desc-rigth{
+    width: 300px;
+}
+.desc-left p{
+display: inline-block;
+}
 
 
+section:nth-child(3){
+background: url('../image/sechion3.jpg') no-repeat center top / cover;
+padding-bottom:115px;
+
+}
 nav{
 position: fixed;
 top: 0;
