@@ -82,6 +82,13 @@ background: url('../image/sechion3.jpg') no-repeat center top / cover;
 padding-bottom:115px;
 
 }
+.left h4{
+font-size:50px;
+display:flex;
+justify-content:flex-start;
+align-items: center; 
+border: 10px solid black;
+	}
 nav{
 position: fixed;
 top: 0;
