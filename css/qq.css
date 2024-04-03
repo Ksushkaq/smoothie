@@ -14,7 +14,7 @@ html{
 	font-size: 62.5%;
 }
 header{
-background: linear-gradient(rgb(0, 0, 0,.7),rgb(0, 0, 0,.7)), 
+background: rgb(0, 0, 0,.7), 
 url('../image/header.jpg') no-repeat center/cover;
 text-align: center;
 padding: 20px;
