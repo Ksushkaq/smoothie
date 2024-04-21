@@ -1,4 +1,3 @@
-<!--header section start-->
 *{
 	margin: 0;
 	padding: 0;
@@ -13,11 +12,9 @@
 }
 html{
 	font-size: 62.5%;
-	scroll-behavior: smooth
 }
-
 header{
-background:linear-gradient (rgb(0, 0, 0,.7), rgb(0, 0, 0,.7)),
+background: linear-gradient(rgb(0, 0, 0,.7),rgb(0, 0, 0,.7)), 
 url('../image/header.jpg') no-repeat center/cover;
 text-align: center;
 padding: 20px;
@@ -37,7 +34,7 @@ nav ul{
 nav ul, li, a{
 	color: white;
 	margin: 10px;
-	font-size: clamp(.80px, 1vw + .50px, 14px);
+	font-size: clamp( 30px, 1vw + 20px, 14px);
 	transition: 0.5s;
 }
 nav ul, li, a:hover{
@@ -48,9 +45,6 @@ nav ul, li, a:hover{
 	width: 100%;
 	height: 100vh;
 }
-<!--header section end-->
-
-<!--home section start-->
 .home{
 	position: absolute;
 	text-align: center;
@@ -81,10 +75,6 @@ color: yellow;
 	font-size: 18px;
 	transition: 0.7s;
 }
-<!--home section end-->
-
-
-<!--smoothies section start-->
 .smoothies{
    background: white;
 	padding: 50px;
@@ -117,37 +107,22 @@ margin: 50px;
 	text-align: justify;
 
 }
-<!--smoothies section end-->
-
-
-<!--reviews section start-->
-
 .reviews{
-        font-size:50px;
 	background: gray;
+	font-size: 30px;
 	padding: 50px;
 	display: flex;
-	flex-direction: row;
-	text-align: center;
 	justify-content: space-between ;
-}
+	flex-wrap: wrap;
+	text-align: center;
+	}
 
-.reviews img {
-	display: block;
-        font-size:10px;
-}
 .top{
 	width: clamp(3vw + 20%, 1vw + 25%, 40%);
 	margin: 20px;
 	width: 30px;
 	
 }
-<!--reviews section end-->
-
-
-
-
-<!--contacts section start-->
 .contacts{
 	background: solid black;
 	padding: 50px;
@@ -160,9 +135,6 @@ margin: 50px;
 form{
 	width: 500px;
 }
-
-
-
 .contacts label{
 	display: block;
 	margin-bottom: 5px;
@@ -181,7 +153,6 @@ form{
 .contacts input[type="submit"]{
 background: red;
 color: white;
-	<!--contacts section end-->
 font-size: 18px;
 padding: 10px 25px;
 cursor: pointer;
